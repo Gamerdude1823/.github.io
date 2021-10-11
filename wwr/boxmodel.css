@@ -1,0 +1,55 @@
+body {
+    background-color: lawngreen;
+}
+h2 {
+    font-size: 40px;
+}
+.about{
+    background-color: plum;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+.about h2 {
+    color: purple;
+}
+.contact{
+    background-color: blue;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: black;
+    max-width: 50%;
+}
+.contact p {
+    color: white;
+}
+.info {
+    width: 150px;
+    border-radius: 150px;
+    background-color: teal;
+    text-align: center;
+    height: 150px;
+    margin: 0 auto;
+}
+.info h2 {
+    font-size: 30px;
+    padding-top: 30px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 20px;
+}
+main section {
+    border: 1px dotted black;
+    
+}
+main section div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+main section div p {
+    border: 3px dotted black;
+}
