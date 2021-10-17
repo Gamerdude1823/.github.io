@@ -1,3 +1,37 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+ .logo {
+    border: 10px solid #d9c2a3;
+    border-radius: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: black;
+ }
+ .home-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin-top: 10px; 
+}   
+.home-grid {
+    padding: 10px;
+}  
+.home-grid .card-img{
+    border: 10px solid #d9c2a3;
+}
+#home-grid{
+    width: 80px;
+}
+body {
+    background-color: #C7D3dd;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    padding: 10px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,25 +40,32 @@
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
-
+.icon {
+    padding-top: 10px;
+}
 #hero-msg h1, h4 {
     text-align: center;
 }
-
+h4, h3, p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.25em;
+}
 .button-box {
     text-align: center;
+    padding: 15px;
 }
-
 main section {
     text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+
 }
 #background {
     background-color: d#77B6EA;
     height: 725px;
-}
-body {
-    background-color: #C7D3dd;
 }
 header {
         background-color: #E8eef2;
@@ -32,17 +73,20 @@ header {
 nav a:hover {
         background-color: black;
     }
-.book {
+.book, .join {
     background-color: #E8eef2;
+    color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 .book:hover {
     background-color: black;
 }
-.join {
-    background-color: #E8eef2;
-    text-decoration: none;
-}
+
 .join:hover {
     background-color: black;
 }
@@ -52,8 +96,9 @@ nav a:hover {
 footer {
     background-color: #E8eef2;
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
-#home-grid {
-    width: 80px;
+footer .social img {
+    padding-top: 15px;
 }
-
