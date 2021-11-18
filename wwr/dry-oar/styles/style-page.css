@@ -109,7 +109,6 @@ main section img {
 }
 #background {
     background-color: #E8eef2;
-    height: 100px;
     grid-template-rows: 4/9;
     grid-template-columns: 1/11;
 }
