@@ -13,6 +13,10 @@
     font-size: 2em;
     margin-top: 10px; 
 }   
+.front-img {
+    height: 50px;
+    width: 50px;
+}
 .home-grid {
     padding: 10px;
 }  
