@@ -1653,7 +1653,7 @@ ul#nav li.current a { color: #F06000; }
 
 #contact {
   background: #151515;
-  padding-top: 12rem;
+  padding-top: 0.5rem;
   padding-bottom: 7.2rem;
 }
 #contact .section-intro h1 {
