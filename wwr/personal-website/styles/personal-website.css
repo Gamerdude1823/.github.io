@@ -83,7 +83,7 @@
     border-collapse: collapse;
     border-spacing: 0;
  }
- 
+
  *:before,
  *:after {
     -moz-box-sizing: border-box;
@@ -774,7 +774,7 @@
     .first { clear: none; }
     .s-first { clear: left; }
  
- }
+ 
  
  @media only screen and (max-width: 767px) {
  
@@ -1108,7 +1108,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 150px;
 }
 
 #resume .resume-header {
@@ -1150,7 +1150,7 @@ ul#nav li.current a { color: #F06000; }
   text-align: center;
   color: #FFFFFF;
   position: absolute;
-  left: 35%;
+  left: 37%;
   top: .9rem;
   margin-left: -2.4rem;
 }
