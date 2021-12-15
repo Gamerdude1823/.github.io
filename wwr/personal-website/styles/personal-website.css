@@ -1715,6 +1715,7 @@ footer .copyright li {
     margin: 0;
     padding: 0;
     line-height: 24px;
+    color:white;
 }
 .ie footer .copyright li {
    display: inline;
