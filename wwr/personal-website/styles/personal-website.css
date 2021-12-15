@@ -1391,8 +1391,6 @@ ul#nav li.current a { color: #F06000; }
    color: #c6c7c7;
    margin-bottom: 0;
 }
-
-/* on hover */
 .portfolio-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
@@ -1404,7 +1402,7 @@ ul#nav li.current a { color: #F06000; }
 	filter:alpha(opacity=100);
 }
 
-/* popup modal */
+
 .popup-modal {
 	max-width: 550px;
 	background: #fff;
